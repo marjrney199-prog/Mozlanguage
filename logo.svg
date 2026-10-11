@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="760" viewBox="0 0 600 760" role="img" aria-labelledby="title desc">
+<title id="title">Logótipo da Escola do Conhecimento</title>
+<desc id="desc">Emblema académico com livro aberto, globo, lâmpada, chapéu de formatura e seta de crescimento em azul escuro, dourado e branco.</desc>
+<defs>
+  <linearGradient id="navy" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#12395b"/><stop offset="1" stop-color="#071c31"/></linearGradient>
+  <linearGradient id="gold" x1="0" y1="0" x2="0.9" y2="1"><stop offset="0" stop-color="#f1d28a"/><stop offset="1" stop-color="#bb8b32"/></linearGradient>
+  <clipPath id="globeClip"><circle cx="300" cy="308" r="94"/></clipPath>
+</defs>
+<!-- Emblema circular -->
+<circle cx="300" cy="315" r="247" fill="url(#navy)" stroke="url(#gold)" stroke-width="12"/>
+<circle cx="300" cy="315" r="229" fill="none" stroke="#ffffff" stroke-opacity=".22" stroke-width="2"/>
+<!-- Chapéu académico -->
+<path d="M173 142 L300 89 L427 142 L300 195 Z" fill="url(#gold)" stroke="#fff6df" stroke-width="5" stroke-linejoin="round"/>
+<path d="M214 160 L214 189 Q300 229 386 189 L386 160" fill="#d5a747" stroke="#fff6df" stroke-width="4"/>
+<path d="M423 143 L438 158 L438 195" fill="none" stroke="#f5d98f" stroke-width="5" stroke-linecap="round"/>
+<circle cx="438" cy="200" r="7" fill="#f5d98f"/>
+<!-- Lâmpada do conhecimento -->
+<g stroke="#f3cc72" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M267 230 C267 205 282 190 300 190 C318 190 333 205 333 230 C333 246 324 253 319 265 L281 265 C276 253 267 246 267 230 Z" fill="#f3cc72" stroke-width="5"/>
+  <path d="M282 270 L318 270 M285 278 L315 278 M290 286 L310 286" fill="none" stroke-width="5"/>
+  <path d="M300 170 L300 158 M255 186 L246 176 M345 186 L354 176 M251 229 L238 229 M349 229 L362 229" fill="none" stroke-width="5"/>
+</g>
+<!-- Globo -->
+<circle cx="300" cy="362" r="94" fill="#f8fbff" stroke="#d4a548" stroke-width="7"/>
+<g clip-path="url(#globeClip)" fill="none" stroke="#1c5b86" stroke-width="4" opacity=".86">
+  <ellipse cx="300" cy="362" rx="45" ry="94"/>
+  <ellipse cx="300" cy="362" rx="75" ry="94"/>
+  <path d="M206 362 H394 M220 326 Q300 349 380 326 M220 398 Q300 375 380 398 M240 294 Q300 316 360 294 M240 430 Q300 408 360 430"/>
+</g>
+<!-- Continents (stylised) -->
+<path d="M253 316 L268 304 L282 309 L286 324 L278 334 L273 349 L260 347 L255 334 Z M318 319 L335 308 L355 316 L365 330 L354 339 L350 354 L338 359 L331 347 L319 343 Z M296 369 L311 376 L315 392 L305 411 L294 403 L289 385 Z" fill="#2b7395" opacity=".8"/>
+<!-- Livro aberto -->
+<path d="M103 454 Q200 425 294 467 L294 580 Q198 539 103 571 Z" fill="#ffffff" stroke="#d9b35d" stroke-width="6" stroke-linejoin="round"/>
+<path d="M497 454 Q400 425 306 467 L306 580 Q402 539 497 571 Z" fill="#f4f7fa" stroke="#d9b35d" stroke-width="6" stroke-linejoin="round"/>
+<path d="M300 465 L300 589" stroke="#d9b35d" stroke-width="5"/>
+<path d="M126 476 Q204 458 274 486 M126 500 Q204 482 274 510 M126 524 Q204 506 274 534 M474 476 Q396 458 326 486 M474 500 Q396 482 326 510 M474 524 Q396 506 326 534" fill="none" stroke="#8da6b7" stroke-width="4" stroke-linecap="round"/>
+<!-- Crescimento: barras e seta ascendente -->
+<g fill="#e7bf68">
+ <rect x="397" y="402" width="12" height="28" rx="2"/><rect x="416" y="387" width="12" height="43" rx="2"/><rect x="435" y="368" width="12" height="62" rx="2"/>
+</g>
+<path d="M391 410 L419 385 L438 366 L452 369 M438 366 L452 369 L450 383" fill="none" stroke="#c89234" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<!-- Marca -->
+<text x="300" y="662" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="29" font-weight="700" letter-spacing="2" fill="#12304b">ESCOLA DO</text>
+<text x="300" y="706" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="35" font-weight="700" letter-spacing="1.2" fill="#12304b">CONHECIMENTO</text>
+</svg>
